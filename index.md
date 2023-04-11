@@ -11,12 +11,14 @@ Here is a list:
 - item 1
 - item 2
 - item 3
+
 Here's a numbered list:
-1. one
+1. one 
 2. two
 3. three
-a horizontal rule: ---
-some inline code: 'inline code'
+
+*** 
+some inline code: `inline code`
 ```
 #code block
 System.out.println("Hellow world!")
