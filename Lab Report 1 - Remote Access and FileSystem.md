@@ -19,6 +19,10 @@ Trying Some Commands
 ## 1. Installing VScode
 Go to the [Visual Studio Code website](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. There are versions for all the major operating systems, like macOS (for Macs) and Windows (for PCs).
 
-When it is installed, you should be able to open a window that looks like this (it might have different colors, or a different menu bar, depending on your system and settings):![Image](VS Code.png)
+When it is installed, you should be able to open a window that looks like this (it might have different colors, or a different menu bar, depending on your system and settings):![Image](VSCode.png)
+
+**Write down in notes:** Everyone should share a screenshot of VScode open – help folks figure it out if it won’t install. If someone gets stuck, take a screenshot of the error message or point at which they are stuck so we can help them figure it out later, and they can decide to keep trying (potentially with the tutor helping) or move on.
 ## 2. Remotely Connecting
+
+
 ## 3. Trying Some Commands
