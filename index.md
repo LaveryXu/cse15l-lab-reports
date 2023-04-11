@@ -1,5 +1,7 @@
 Ayo, it's your girl sum texts.
+
 *These texts are italic.*
+
 **These texts are bold.**
 # This is one type of heading.
 ## This is another type of heading.
