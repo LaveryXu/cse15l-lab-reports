@@ -1,5 +1,5 @@
 # A Tutorial on Remote Access: How to log into a course-specific account on ieng6
-## 1. Installing VScode
+## 1. Installing VS Code
 - Go to the [Visual Studio Code website](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer.
   - There are versions for all the major operating systems, like macOS (for Macs) and Windows (for PCs).
 
