@@ -14,13 +14,13 @@
 ## 3. Trying Some Commands
 - Now that you have logged into the school's server, you are working with the server instead of your local computer. Commands entered in the terminal will be executed on the server while you are logged in. Here's some basic command lines you can try on the server:
 
-  - cd ~
-  - cd
-  - ls -lat
-  - ls -a
-  - ls <directory> where <directory> is /home/linux/ieng6/cs15lfa22/cs15lfa22abc, where the abc is one of the other group members’ username
-  - cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
-  - cat /home/linux/ieng6/cs15lfa22/public/hello.txt
+  - `cd ~`
+  - `cd`
+  - `ls -lat`
+  - `ls -a`
+  - `ls <directory>` where <directory> is /home/linux/ieng6/cs15lfa22/cs15lfa22abc, where the abc is one of the other group members’ username
+  - `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
+  - `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
 - To log out of the remote server, use:
   - Ctrl+D
   - **exit** command
