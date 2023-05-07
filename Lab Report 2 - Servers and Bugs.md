@@ -1,12 +1,12 @@
 ## the code for my StringServer:
 [StringServer.java](StringServer.java)
 ## two screenshots of using /add-message.
-- ![](http://url/a.png)
+- ![Jun's String](Jun's String.png)
   - Which methods in your code are called?
   - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
   - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-- ![Image](http://url/a.png)
+- ![apple101](apple101.png)
   - Which methods in your code are called?
   - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
   - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
