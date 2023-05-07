@@ -1,5 +1,5 @@
 ## the code for my StringServer:
-[Link](http://a.com)
+[Link](StringServer.java)
 ## two screenshots of using /add-message.
 - ![Image](http://url/a.png)
   - Which methods in your code are called?
