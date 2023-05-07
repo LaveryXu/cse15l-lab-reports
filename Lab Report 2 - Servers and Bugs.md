@@ -3,9 +3,7 @@
 ## two screenshots of using /add-message.
 - ![myString](myString.png)
   - Which methods in your code are called?
-    - At first, the main method is run and parseInt method is called and with the argument being 7777, the port number entered by the user (me in this case). The StringHandler class's int field, portNum, is assigned the int value, 7777, that parseInt method returns. Then the start method in Server.java is called with arguments portNum the field and an instance of StringHandler the class (this instance is returned by StringHandler's constructor via calling the constructor with the arugmment portNum the field).
-  - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+    - At first, the main method is run and parseInt method is called with the argument being 7777, the port number entered by the user (me in this case). The StringHandler class's int field, portNum, is assigned the int value, 7777, that the parseInt method returns. Then the start method in Server.java is called with arguments portNum the field and an instance of StringHandler the class (this instance is returned by StringHandler's constructor via calling the constructor with the arugmment portNum the field). During the execution of the start method, the handleRequest method is called and recognize that the initial url's path is /, therefore prints out texts that instruct the user to input texts they want to print on the webpage. After the String, myString, is entered in the instructed format, handleRequest extract out the user String and concatenate the user String to field x, which is initialized as an empty String. At last, the handleRequest method returns a String by making the method call, String.format(x) and this returned String is printed on the webpage.
 
 - ![YouTube](YouTube.png)
   - Which methods in your code are called?
