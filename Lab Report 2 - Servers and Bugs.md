@@ -1,6 +1,6 @@
 # Servers and Bugs
 ## Part 1
-[StringServer.java](StringServer.java) for my StringServer
+[code](StringServer.java) for my StringServer
 
 two screenshots of using /add-message.
 - ![myString](myString.png)
