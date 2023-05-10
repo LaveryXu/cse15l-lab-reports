@@ -37,12 +37,18 @@ static int[] reversed(int[] arr) {
   }
   ```
 
-- A failure-inducing input for `static int[] reversed(int[] arr)`: {1,2,3,4,5,6}
+- A failure-inducing input for `static int[] reversed(int[] arr)`: {1,2,3,4,5,6}, as shown in the code below:
     ```
     int[] input2 = {1,2,3,4,5,6};
     assertArrayEquals(new int[]{6,5,4,3,2,1}, ArrayExamples.reversed(input2)); // failure #1
     ```
-  - error message printed in the terminal:
+- An input that doesn’t induce a failure:
+  ```
+  int[] input3 = {-1, 1};
+  assertArrayEquals(new int[] {1, -1}, ArrayExamples.reversed(input3));
+  ```
+- The symptom:
+  - in terminal output
     ```
     JUnit version 4.13.2
     ..E
@@ -68,10 +74,25 @@ static int[] reversed(int[] arr) {
     Tests run: 2,  Failures: 1
 
     ```
-
-- An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-- The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+  - screenshot:
+    ![ArrayExamplesSymptom](ArrayExamplesSymptom.png)
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+  - before:
+    ```
+    // Returns a *new* array with all the elements of the input array in reversed 
+    // order
+    static int[] reversed(int[] arr) {
+      int[] newArray = new int[arr.length];
+      for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = newArray[arr.length - i - 1];
+      }
+      return arr;
+    }
+    ```
+  - after:
+    ```
+    
+    ```
 - Briefly describe why the fix addresses the issue.
 
 ## Part 3
