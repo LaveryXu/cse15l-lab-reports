@@ -9,17 +9,17 @@
   - The `main` method, the `parseInt` method, and the `start` method are called in the previous screenshot. The `handleRequest` method is again called with the argument, the entire url that's **http://localhost:7777/add-message?=https://www.youtube.com/** in this screeshot and contatenate the user's String, **https://www.youtube.com/** to the field `x`. Therefore, field `x` is now this String: "myString\n2023\nhttps://www.youtube.com/". Then `handleRequest` method returns a String by making the method call, `String.format(x)`, and the returned String, **myString\n2023\nhttps://www.youtube.com/** is printed on the webpage. The field `portNum` is not changed and remians **7777**.
 
 ## Part 2
-- the buggy method I choose from lab 3: `static int[] reversed(int[] arr)` in ArrayExamples.java, as shown below:
-  - ```
-    // Returns a *new* array with all the elements of the input array in reversed
-  // order
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
+- the buggy method I choose from lab 3: `static int[] reversed(int[] arr)` in `ArrayExamples.java`, as shown below:
+  ```
+    // Returns a *new* array with all the elements of the input array in reversed 
+    // order
+    static int[] reversed(int[] arr) {
+      int[] newArray = new int[arr.length];
+      for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = newArray[arr.length - i - 1];
+      }
+      return arr;
     }
-    return arr;
-  }
   ```
 
 Provide:
