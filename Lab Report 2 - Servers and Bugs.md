@@ -64,8 +64,8 @@ The buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `A
       return newArray;
     }
     ```
-- Briefly describe why the fix addresses the issue.
+- Why the fix addresses the issue:
   - The fix addresses the issue because the before-code-change method alters the elements of the argument array, arr, and returns arr instead of initializes and returns newArray, the array that `static int[] reversed(int[] arr)` is expected to fill with all elements of arr in the reversed order and return. I have 1) changed the array, whose elements are altered in the for loop, from arr to newArray, and 2) changed the returned array from arr to newArray as well, which addresses the bug that alters and returns the wrong array. I also wrote additional junit tests after making the code change and all tests passed, which is decent evidence that my fix addresses the issue.
 
 ## Part 3
-a question that I have: how do I make an entire paragraph or code block a single bullet point in Markdown?
+A new thing I learned is that different IDEs renders Markdown syntaxes differently. VS Code and GitHub's Markdown rendering is pretty much the same with each other but when I tried using a Markdown syntax that inserts tables in VS Code, GitHub seemed unable to recognize that Markdown syntax. After some web research, I leanred from GitHub's official page that they only support HTML syntaxes that insert tables. (I'm not 100% sure I'm correct, pls let me know if I'm wrong. =))
