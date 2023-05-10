@@ -21,7 +21,7 @@ static int[] reversed(int[] arr) {
   return arr;
 }
 ```
-- the junit test for `static int[] reversed(int[] arr)`:
+- the entire junit test for `static int[] reversed(int[] arr)`:
   ```
   @Test
   public void testReversed() {
@@ -38,10 +38,35 @@ static int[] reversed(int[] arr) {
   ```
 
 - A failure-inducing input for `static int[] reversed(int[] arr)`: {1,2,3,4,5,6}
-  - as a JUnit test:
     ```
     int[] input2 = {1,2,3,4,5,6};
     assertArrayEquals(new int[]{6,5,4,3,2,1}, ArrayExamples.reversed(input2)); // failure #1
+    ```
+  - error message printed in the terminal:
+    ```
+    JUnit version 4.13.2
+    ..E
+    Time: 0.011
+    There was 1 failure:
+    1) testReversed(ArrayTests)
+    arrays first differed at element [0]; expected:<6> but was:<0>
+            at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+            at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+            at org.junit.Assert.internalArrayEquals(Assert.java:534)        
+            at org.junit.Assert.assertArrayEquals(Assert.java:418)
+            at org.junit.Assert.assertArrayEquals(Assert.java:429)
+            at ArrayTests.testReversed(ArrayTests.java:42)
+            ... 30 trimmed
+    Caused by: java.lang.AssertionError: expected:<6> but was:<0>
+            at org.junit.Assert.fail(Assert.java:89)
+            at org.junit.Assert.failNotEquals(Assert.java:835)
+    l(ExactComparisonCriteria.java:8)
+            at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+            ... 36 more
+
+    FAILURES!!!
+    Tests run: 2,  Failures: 1
+
     ```
 
 - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
