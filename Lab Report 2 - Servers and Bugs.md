@@ -35,7 +35,7 @@ static int[] reversed(int[] arr) {
     int[] input3 = {-1, 1};
     assertArrayEquals(new int[] {1, -1}, ArrayExamples.reversed(input3));
   }
-```
+  ```
 
 - A failure-inducing input for `static int[] reversed(int[] arr)`: {1,2,3,4,5,6}
   - as a JUnit test:
