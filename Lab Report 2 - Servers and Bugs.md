@@ -13,13 +13,13 @@ the buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `A
 ```
 // Returns a *new* array with all the elements of the input array in reversed 
 // order
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
   }
+  return arr;
+}
 ```
 
 - A failure-inducing input for `static int[] reversed(int[] arr)`: {1,2,3,4,5,6}
@@ -27,7 +27,7 @@ the buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `A
     ```
     int[] input2 = {1,2,3,4,5,6};
     assertArrayEquals(new int[]{6,5,4,3,2,1}, ArrayExamples.reversed(input2)); // failure #1
-    ```
+  ```
 - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
