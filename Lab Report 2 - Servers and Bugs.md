@@ -9,24 +9,24 @@
   - The `main` method, the `parseInt` method, and the `start` method are called in the previous screenshot. The `handleRequest` method is again called with the argument, the entire url that's **http://localhost:7777/add-message?=https://www.youtube.com/** in this screeshot and contatenate the user's String, **https://www.youtube.com/** to the field `x`. Therefore, field `x` is now this String: "myString\n2023\nhttps://www.youtube.com/". Then `handleRequest` method returns a String by making the method call, `String.format(x)`, and the returned String, **myString\n2023\nhttps://www.youtube.com/** is printed on the webpage. The field `portNum` is not changed and remians **7777**.
 
 ## Part 2
-- the buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `ArrayExamples.java`, as shown below:
-  ```
-    // Returns a *new* array with all the elements of the input array in reversed 
-    // order
-    static int[] reversed(int[] arr) {
-      int[] newArray = new int[arr.length];
-      for(int i = 0; i < arr.length; i += 1) {
-        arr[i] = newArray[arr.length - i - 1];
-      }
-      return arr;
+the buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `ArrayExamples.java`, as shown below:
+```
+// Returns a *new* array with all the elements of the input array in reversed 
+// order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
     }
-  ```
+    return arr;
+  }
+```
 
-  - A failure-inducing input for `static int[] reversed(int[] arr)`, as a JUnit test and any associated code (write it as a code block in Markdown)
-  - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-  - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-  - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-  - Briefly describe why the fix addresses the issue.
+- A failure-inducing input for `static int[] reversed(int[] arr)`, as a JUnit test and any associated code (write it as a code block in Markdown)
+- An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+- The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+- The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+- Briefly describe why the fix addresses the issue.
 
 ## Part 3
 a question that I have: how do I make an entire paragraph or code block a single bullet point in Markdown?
