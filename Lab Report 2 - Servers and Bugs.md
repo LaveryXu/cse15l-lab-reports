@@ -21,20 +21,20 @@ static int[] reversed(int[] arr) {
   return arr;
 }
 ```
-the junit test for `static int[] reversed(int[] arr)`:
-```
-@Test
-public void testReversed() {
-  int[] input1 = { };
-  assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+- the junit test for `static int[] reversed(int[] arr)`:
+  ```
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 
-  // My tests:
-  int[] input2 = {1,2,3,4,5,6};
-  assertArrayEquals(new int[]{6,5,4,3,2,1}, ArrayExamples.reversed(input2)); // failure #1
+    // My tests:
+    int[] input2 = {1,2,3,4,5,6};
+    assertArrayEquals(new int[]{6,5,4,3,2,1}, ArrayExamples.reversed(input2)); // failure #1
   
-  int[] input3 = {-1, 1};
-  assertArrayEquals(new int[] {1, -1}, ArrayExamples.reversed(input3));
-}
+    int[] input3 = {-1, 1};
+    assertArrayEquals(new int[] {1, -1}, ArrayExamples.reversed(input3));
+  }
 ```
 
 - A failure-inducing input for `static int[] reversed(int[] arr)`: {1,2,3,4,5,6}
