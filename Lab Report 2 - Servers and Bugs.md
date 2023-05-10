@@ -9,18 +9,8 @@ The code for my StringServer is [here](StringServer.java).
   - The `main` method, the `parseInt` method, and the `start` method are called in the previous screenshot. The `handleRequest` method is again called with the argument, the entire url that's **http://localhost:7777/add-message?=https://www.youtube.com/** in this screeshot and contatenate the user's String, **https://www.youtube.com/** to the field `x`. Therefore, field `x` is now this String: "myString\n2023\nhttps://www.youtube.com/". Then `handleRequest` method returns a String by making the method call, `String.format(x)`, and the returned String, **myString\n2023\nhttps://www.youtube.com/** is printed on the webpage. The field `portNum` is not changed and remians **7777**.
 
 ## Part 2
-the buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `ArrayExamples.java`, as shown below:
-```
-// Returns a *new* array with all the elements of the input array in reversed 
-// order
-static int[] reversed(int[] arr) {
-  int[] newArray = new int[arr.length];
-  for(int i = 0; i < arr.length; i += 1) {
-    arr[i] = newArray[arr.length - i - 1];
-  }
-  return arr;
-}
-```
+The buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `ArrayExamples.java`.
+
 - the entire junit test for `static int[] reversed(int[] arr)`:
   ```
   @Test
@@ -42,38 +32,12 @@ static int[] reversed(int[] arr) {
   int[] input2 = {1,2,3,4,5,6};
   assertArrayEquals(new int[]{6,5,4,3,2,1}, ArrayExamples.reversed(input2)); // failure #1
   ```
-- An input that doesn’t induce a failure:
+- An input that doesn’t induce a failure: {-1, 1}, as shown in the code below:
   ```
   int[] input3 = {-1, 1};
   assertArrayEquals(new int[] {1, -1}, ArrayExamples.reversed(input3));
   ```
 - The symptom:
-  - as terminal output
-    ```
-    JUnit version 4.13.2
-    ..E
-    Time: 0.011
-    There was 1 failure:
-    1) testReversed(ArrayTests)
-    arrays first differed at element [0]; expected:<6> but was:<0>
-            at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
-            at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
-            at org.junit.Assert.internalArrayEquals(Assert.java:534)        
-            at org.junit.Assert.assertArrayEquals(Assert.java:418)
-            at org.junit.Assert.assertArrayEquals(Assert.java:429)
-            at ArrayTests.testReversed(ArrayTests.java:42)
-            ... 30 trimmed
-    Caused by: java.lang.AssertionError: expected:<6> but was:<0>
-            at org.junit.Assert.fail(Assert.java:89)
-            at org.junit.Assert.failNotEquals(Assert.java:835)
-    l(ExactComparisonCriteria.java:8)
-            at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
-            ... 36 more
-
-    FAILURES!!!
-    Tests run: 2,  Failures: 1
-
-    ```
   - screenshot:
     ![ArrayExamplesSymptom](ArrayExamplesSymptom.png)
 - The bug, as the before-and-after code change required to fix it:
