@@ -27,7 +27,7 @@ The buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `A
   }
   ```
 
-- A failure-inducing input for `static int[] reversed(int[] arr)`: {1,2,3,4,5,6}, as shown in the code below:
+- A failure-inducing input: {1,2,3,4,5,6}, as shown in the code below:
   ```
   int[] input2 = {1,2,3,4,5,6};
   assertArrayEquals(new int[]{6,5,4,3,2,1}, ArrayExamples.reversed(input2)); // failure #1
