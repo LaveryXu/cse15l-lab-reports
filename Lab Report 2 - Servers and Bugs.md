@@ -38,8 +38,7 @@ The buggy method I choose from lab 3 is `static int[] reversed(int[] arr)` in `A
   assertArrayEquals(new int[] {1, -1}, ArrayExamples.reversed(input3));
   ```
 - The symptom:
-  - screenshot:
-    ![ArrayExamplesSymptom](ArrayExamplesSymptom.png)
+  ![ArrayExamplesSymptom](ArrayExamplesSymptom.png)
 - The bug, as the before-and-after code change required to fix it:
   - before:
     ```
