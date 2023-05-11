@@ -3,10 +3,10 @@ Consider the commands less, find, and grep. Choose one of them. Online, find 4 i
 
 ## `find`
 - 4 command-line options：
-  1. find -name
-  2. find -type
-  3. find -<>
-  4. find -<>
+ 1. find -name
+ 2. find -type
+ 3. find -<>
+ 4. find -<>
 ## `less`
 - 4 command-line options：
   1. less <>
