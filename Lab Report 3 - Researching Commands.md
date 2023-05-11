@@ -9,30 +9,30 @@ Consider the commands less, find, and grep. Choose one of them. Online, find 4 i
  4. find -<>
 ## `less`
 - 4 command-line options：
-  1. less <>
+ 1. less <>
     1. e.g.
     2. e.g.
-  2. less <>
+ 2. less <>
     1. e.g.
     2. e.g.
-  3. less <>
+ 3. less <>
     1. e.g.
     2. e.g. 
-  4. less <>
+ 4. less <>
     1. e.g.
     2. e.g. 
 ## `grep`
 - 4 command-line options：
-  1. grep <>
+ 1. grep <>
     1. e.g.
     2. e.g.
-  2. grep <>
+ 2. grep <>
     1. e.g.
     2. e.g.
-  3. grep <>
+ 3. grep <>
     1. e.g.
     2. e.g.
-  4. grep <>
+ 4. grep <>
     1. e.g.
     2. e.g.
 
