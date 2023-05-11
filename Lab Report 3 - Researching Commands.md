@@ -5,14 +5,8 @@ Consider the commands less, find, and grep. Choose one of them. Online, find 4 i
 - 4 command-line options：
   1. find -name
   2. find -type
-    1. e.g.
-    2. e.g.
   3. find -<>
-    1. e.g.
-    2. e.g.
   4. find -<>
-    1. e.g.
-    2. e.g.
 ## `less`
 - 4 command-line options：
   1. less <>
