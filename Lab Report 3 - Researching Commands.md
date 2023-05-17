@@ -2,7 +2,7 @@
 For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
 ## `find`
-1. `find <directory-to-search-in>... -type <descriptor> # searches for files`
+1. `find <directory-to-search-in>... -type <descriptor> # searches for files of type <descriptor>`
    1) e.g.
    2) e.g.
 2. `find <directory-to-search-in>... -iname "<some-string>" # performes a case-insensitive search for files and directories that are named <some-string>`
