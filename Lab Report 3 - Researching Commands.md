@@ -4,18 +4,19 @@ For each of those options, give 2 examples of using it on files and directories 
 ## `find`
 1. `find <directory-to-search-in>... -type <descriptor> # searches for files of type <descriptor>`
    - examples: 
-      ```$ find technical -type d
-         technical
-         technical/911report
-         technical/biomed
-         technical/government
-         technical/government/About_LSC
-         technical/government/Alcohol_Problems
-         technical/government/Env_Prot_Agen
-         technical/government/Gen_Account_Office
-         technical/government/Media
-         technical/government/Post_Rate_Comm
-         technical/plos
+      ```
+      $ find technical -type d
+        technical
+        technical/911report
+        technical/biomed
+        technical/government
+        technical/government/About_LSC
+        technical/government/Alcohol_Problems
+        technical/government/Env_Prot_Agen
+        technical/government/Gen_Account_Office
+        technical/government/Media
+        technical/government/Post_Rate_Comm
+        technical/plos
       ```
 2. `find <directory-to-search-in>... -iname "<some-string>" # performes a case-insensitive search for files and directories that are named <some-string>`
    1) e.g.
