@@ -21,10 +21,7 @@ For each of those options, give 2 examples of using it on files and directories 
       ```
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ find technical/ -type f > files-in-technical.txt
-
-      Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ less files-in-technical.txt
+      $ find technical/ -type f > files-in-technical.txt # example #2, the f descriptor stands for files
 
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
       $ head files-in-technical.txt
