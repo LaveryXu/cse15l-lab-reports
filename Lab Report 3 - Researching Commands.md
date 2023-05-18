@@ -166,34 +166,6 @@ For each of those options, give 2 examples of using it on files and directories 
       technical/government/Env_Prot_Agen/multi102902.txt
       technical/government/Env_Prot_Agen/nov1.txt
       ```
-
-## `less`
-1. less -<>
-   1) e.g.
-   2) e.g.
-2. less -<>
-   1) e.g.
-   2) e.g.
-3. less -<>
-   1) e.g.
-   2) e.g. 
-4. less -<>
-   1) e.g.
-   2) e.g. 
-
-## `grep`
-1. grep -<>
-   1) e.g.
-   2) e.g.
-2. grep -<>
-   1) e.g.
-   2) e.g.
-3. grep -<>
-   1) e.g.
-   2) e.g.
-4. grep -<>
-   1) e.g.
-   2) e.g.
-
+All research about above `find` options in bash is from this website.
 
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it.
