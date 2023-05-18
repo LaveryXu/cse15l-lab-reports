@@ -40,7 +40,7 @@ For each of those options, give 2 examples of using it on files and directories 
    1) e.g.
    2) e.g.
 3. `find <directory-to-search-in>... -empty # searchs for empty files and directories`
-   - 2 examples: (both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/)
+   - 2 examples:
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
       $ find technical/ -empty
@@ -51,6 +51,7 @@ For each of those options, give 2 examples of using it on files and directories 
       $ find technical/plos -empty
       
       ```
+   - **Note: both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/**
 4. `find <directory-to-search-in>... -size # searches for files of, less than, or greater than a size or within a size range`
    1) e.g.
    2) e.g.
