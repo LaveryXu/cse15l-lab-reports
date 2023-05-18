@@ -6,7 +6,7 @@ For each of those options, give 2 examples of using it on files and directories 
    - examples: 
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ find technical -type d # example #1
+      $ find technical -type d # example #1, the descriptor d stands for directory
       technical
       technical/911report
       technical/biomed
@@ -18,6 +18,26 @@ For each of those options, give 2 examples of using it on files and directories 
       technical/government/Media
       technical/government/Post_Rate_Comm
       technical/plos
+      ```
+      ```
+      Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
+      $ find technical/ -type f > files-in-technical.txt
+
+      Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
+      $ less files-in-technical.txt
+
+      Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
+      $ head files-in-technical.txt
+      technical/911report/chapter-1.txt
+      technical/911report/chapter-10.txt
+      technical/911report/chapter-11.txt
+      technical/911report/chapter-12.txt
+      technical/911report/chapter-13.1.txt
+      technical/911report/chapter-13.2.txt
+      technical/911report/chapter-13.3.txt
+      technical/911report/chapter-13.4.txt
+      technical/911report/chapter-13.5.txt
+      technical/911report/chapter-2.txt
       ```
 2. `find <directory-to-search-in>... -iname "<some-string>" # performes a case-insensitive search for files and directories that are named <some-string>`
    1) e.g.
