@@ -3,7 +3,7 @@ For each of those options, give 2 examples of using it on files and directories 
 
 ## `find`
 1. `find <directory-to-search-in>... -type <descriptor> # searches for files of type <descriptor>`
-   - examples: 
+   - 2 examples: 
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
       $ find technical -type d # example #1, the descriptor d stands for directory
@@ -40,7 +40,7 @@ For each of those options, give 2 examples of using it on files and directories 
    1) e.g.
    2) e.g.
 3. `find <directory-to-search-in>... -empty # searchs for empty files and directories`
-   - examples:
+   - 2 examples: (both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/)
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
       $ find technical/ -empty
