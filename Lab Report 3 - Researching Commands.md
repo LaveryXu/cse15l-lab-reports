@@ -187,8 +187,11 @@ For each of those options, give 2 examples of using it on files and directories 
       
       ```
    - *Note: both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/*
-4. `find <directory-to-search-in>... -size # searches for files of, less than, or greater than a size or within a size range`
+4. `find <directory-to-search-in>... -size <a-positive-int><a-size suffix># searches for files of, less than, or greater than a size or within a size range`
    - 2 examples:
+      ```
+      
+      ```
 5. `find <directory-to-search-in>... -newer <file> # searches for files that were modified/created after <file>`
    - 2 examples:
 
