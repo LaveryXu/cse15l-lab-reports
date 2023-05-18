@@ -40,7 +40,7 @@ For each of those options, give 2 examples of using it on files and directories 
       
       ```
 2. `find <directory-to-search-in>... -iname "<some-string>" # performes a case-insensitive search for files and directories that are named <some-string>`
-   - One case in which `-iname` option is helpful is that a person makes potential typo(s) of capitalizing some letter(s) in a file's name. Performing a case insensitive search helps to see if that file exists in a specific directory.
+   - One case in which `-iname` option is helpful is that when a person makes potential typo(s) of capitalizing some letter(s) in a file's name, performing a case insensitive search helps to see if that file with a potentially mispelled file name exists in <directory-to-search-in>.
    - 2 examples:
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
@@ -84,6 +84,7 @@ For each of those options, give 2 examples of using it on files and directories 
 
       ```
 3. `find <directory-to-search-in>... -empty # searchs for empty files and directories`
+   - It's common for someone to want to target empty files and directories in order to delete them.
    - 2 examples:
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
@@ -97,6 +98,7 @@ For each of those options, give 2 examples of using it on files and directories 
       ```
    - *Note: both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/*
 4. `find <directory-to-search-in>... -size <sizes-range-indicator># searches for files of, less than, or greater than a size or within a size range`
+   - `-size` option helps find files of certain sizes or withint certain size ranges
    - 2 examples:
       ```
       $ find technical/ -size +100k # example #1 +100k means greater than 100 kilobytes.
@@ -144,6 +146,7 @@ For each of those options, give 2 examples of using it on files and directories 
 
       ```
 5. `find <directory-to-search-in>... -newer <file> # searches for files that were modified/created after <file>`
+   - helps to find the latest files in <directory-to-search-in>.
    - 2 examples:
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
