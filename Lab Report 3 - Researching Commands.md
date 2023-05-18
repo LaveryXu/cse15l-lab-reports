@@ -42,7 +42,7 @@ For each of those options, give 2 examples of using it on files and directories 
    - 2 examples:
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ find technical/911report/ -name "CHAPTER*.txt" # example #1 that this command line outputs nothing to the terminal indicates that there's no file/directory under technical/911report/ which has the name that matches the pattern "CHAPTER*.txt"
+      $ find technical/911report/ -name "CHAPTER*.txt" # example #1 that this command line outputs nothing to the terminal indicates that there's no file/directory under technical/911report/, which has the name that matches the pattern "CHAPTER*.txt"
 
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
       $ find technical/911report/ -iname "CHAPTER*.txt"
