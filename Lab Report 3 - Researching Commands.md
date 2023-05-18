@@ -51,7 +51,7 @@ For each of those options, give 2 examples of using it on files and directories 
       $ find technical/plos -empty
       
       ```
-   - **Note: both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/**
+   - *Note: both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/*
 4. `find <directory-to-search-in>... -size # searches for files of, less than, or greater than a size or within a size range`
    1) e.g.
    2) e.g.
