@@ -178,12 +178,12 @@ For each of those options, give 2 examples of using it on files and directories 
    - 2 examples:
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ find technical/ -empty
+      $ find technical/ -empty # example #1
       
       ```
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ find technical/plos -empty
+      $ find technical/plos -empty # example #2
       
       ```
    - *Note: both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/*
