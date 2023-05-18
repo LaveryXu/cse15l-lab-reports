@@ -45,7 +45,7 @@ For each of those options, give 2 examples of using it on files and directories 
       $ find technical/911report/ -name "CHAPTER*.txt" # example #1 that this command line outputs nothing to the terminal indicates that there's no file/directory under technical/911report/, which has the name that matches the pattern "CHAPTER*.txt"
 
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ find technical/911report/ -iname "CHAPTER*.txt"
+      $ find technical/911report/ -iname "CHAPTER*.txt" # example #1
       technical/911report/chapter-1.txt
       technical/911report/chapter-10.txt
       technical/911report/chapter-11.txt
@@ -69,7 +69,7 @@ For each of those options, give 2 examples of using it on files and directories 
       $ find technical/plos -name "jOUrnal*.txt" # example #2 that this command line outputs nothing to the terminal indicates that there's no file/directory under technical/plos, which has the name that matches the patter "jOUrnal*.txt"
 
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ find technical/plos -iname "jOUrnal*.txt"
+      $ find technical/plos -iname "jOUrnal*.txt" # example #2
       technical/plos/journal.pbio.0020001.txt
       technical/plos/journal.pbio.0020010.txt
       technical/plos/journal.pbio.0020012.txt
@@ -187,7 +187,7 @@ For each of those options, give 2 examples of using it on files and directories 
       
       ```
    - *Note: both uses of `-empty` outputs nothing to the terminal because there's no empty file/directory in technical/*
-4. `find <directory-to-search-in>... -size <a-positive-int><a-size suffix># searches for files of, less than, or greater than a size or within a size range`
+4. `find <directory-to-search-in>... -size <sizes-range-indicator># searches for files of, less than, or greater than a size or within a size range`
    - 2 examples:
       ```
       
