@@ -44,10 +44,13 @@ For each of those options, give 2 examples of using it on files and directories 
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
       $ find technical/ -empty
-
+      
+      ```
+      ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
       $ find technical/plos -empty
-            ```
+      
+      ```
 4. `find <directory-to-search-in>... -size # searches for files of, less than, or greater than a size or within a size range`
    1) e.g.
    2) e.g.
