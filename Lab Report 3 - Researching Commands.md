@@ -37,8 +37,7 @@ For each of those options, give 2 examples of using it on files and directories 
       technical/911report/chapter-2.txt
       ```
 2. `find <directory-to-search-in>... -iname "<some-string>" # performes a case-insensitive search for files and directories that are named <some-string>`
-   1) e.g.
-   2) e.g.
+   - 2 examples:
 3. `find <directory-to-search-in>... -empty # searchs for empty files and directories`
    - 2 examples:
       ```
