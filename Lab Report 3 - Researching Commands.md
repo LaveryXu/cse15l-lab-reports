@@ -3,6 +3,7 @@ For each of those options, give 2 examples of using it on files and directories 
 
 ## `find`
 1. `find <directory-to-search-in>... -type <descriptor> # searches for files of type <descriptor>`
+   - `-type` option enables searching for files of certain type(s)
    - 2 examples: 
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
@@ -39,6 +40,7 @@ For each of those options, give 2 examples of using it on files and directories 
       
       ```
 2. `find <directory-to-search-in>... -iname "<some-string>" # performes a case-insensitive search for files and directories that are named <some-string>`
+   - One case in which `-iname` option is helpful is that a person makes potential typo(s) of capitalizing some letter(s) in a file's name. Performing a case insensitive search helps to see if that file exists in a specific directory.
    - 2 examples:
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
