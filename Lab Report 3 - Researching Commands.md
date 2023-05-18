@@ -18,6 +18,7 @@ For each of those options, give 2 examples of using it on files and directories 
       technical/government/Media
       technical/government/Post_Rate_Comm
       technical/plos
+      
       ```
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
@@ -35,12 +36,13 @@ For each of those options, give 2 examples of using it on files and directories 
       technical/911report/chapter-13.4.txt
       technical/911report/chapter-13.5.txt
       technical/911report/chapter-2.txt
+      
       ```
 2. `find <directory-to-search-in>... -iname "<some-string>" # performes a case-insensitive search for files and directories that are named <some-string>`
    - 2 examples:
       ```
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
-      $ find technical/911report/ -name "CHAPTER*.txt" # that this command line outputs nothing to the terminal indicates that there's no file/directory under             technical/911report/ which has the name that matches the patter "CHAPTER*.txt"
+      $ find technical/911report/ -name "CHAPTER*.txt" # example #1 that this command line outputs nothing to the terminal indicates that there's no file/directory under technical/911report/ which has the name that matches the pattern "CHAPTER*.txt"
 
       Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
       $ find technical/911report/ -iname "CHAPTER*.txt"
