@@ -236,6 +236,29 @@ For each of those options, give 2 examples of using it on files and directories 
       ```
 5. `find <directory-to-search-in>... -newer <file> # searches for files that were modified/created after <file>`
    - 2 examples:
+      ```
+      Jun Xu@DESKTOP-6V69VHU MINGW64 ~/Desktop/Spring 2023/CSE 15L/labs/lab 4/docsearch (main)
+      $ find technical/911report/ -newer technical/911report/chapter-5.txt # example 1
+      technical/911report/
+      technical/911report/chapter-7.txt
+      technical/911report/chapter-8.txt
+      technical/911report/chapter-9.txt
+      technical/911report/preface.txt
+
+      ```
+      ```
+      $ find technical/government/ -newer technical/government/Alcohol_Problems | head
+      technical/government/
+      technical/government/Env_Prot_Agen
+      technical/government/Env_Prot_Agen/bill.txt
+      technical/government/Env_Prot_Agen/ctf1-6.txt
+      technical/government/Env_Prot_Agen/ctf7-10.txt
+      technical/government/Env_Prot_Agen/ctm4-10.txt
+      technical/government/Env_Prot_Agen/final.txt
+      technical/government/Env_Prot_Agen/jeffordslieberm.txt
+      technical/government/Env_Prot_Agen/multi102902.txt
+      technical/government/Env_Prot_Agen/nov1.txt
+      ```
 
 ## `less`
 1. less -<>
