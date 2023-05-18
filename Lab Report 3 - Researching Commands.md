@@ -1,5 +1,4 @@
-# Researching Commands
-## `find`
+# Researching the `find` Command
 1. `find <directory-to-search-in>... -type <descriptor> # searches for files of type <descriptor>`
    - `-type` option enables searching for files of certain type(s)
    - 2 examples: 
