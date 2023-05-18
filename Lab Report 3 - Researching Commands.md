@@ -223,7 +223,7 @@ For each of those options, give 2 examples of using it on files and directories 
       
       ```
       ```
-      $ find technical/911report/ -size -100k
+      $ find technical/911report/ -size -100k # example #2 -100k means less than 100 kilobytes.
       technical/911report/
       technical/911report/chapter-10.txt
       technical/911report/chapter-11.txt
