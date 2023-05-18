@@ -169,4 +169,4 @@
       technical/government/Env_Prot_Agen/multi102902.txt
       technical/government/Env_Prot_Agen/nov1.txt
       ```
-I researched options 1,2,4, and 5 on this [Linuxize webpage](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/#find-files-by-type)) and researched option 3 on this [GeeksforGeeks webpage](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/).
+I researched options 1,2,4, and 5 on this [Linuxize webpage](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/#find-files-by-type) and researched option 3 on this [GeeksforGeeks webpage](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/).
