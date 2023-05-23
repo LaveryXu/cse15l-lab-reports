@@ -19,14 +19,14 @@
       - ![](Edit-the-code-file-to-fix-the-failing-test.png)
       - command I ran: `vim ListExamples.java`
         - keys pressed: vim`<whitespace>`List`<Tab>`.java`<Enter>` and jjjjjjjlllll`<Delete>`i2`<Escape>`:wq
-        - effect of above keypress: vim`<whitespace>`List`<Tab>`.java opens ListExamples.java in vim. jjjjjjjlllll`<Delete>`i2`<Escape>`:wq, in ListExamples.java opened in vim, moves the cursor down by 7 lines and then right by 5 whitespace characters, deletes the character 1 that's highlighted by the cursor, enters insert mode, inserts 2 where the cursor is, enters normal mode, saves the changes made, and quits vim.
+        - effect of above keypresses: vim`<whitespace>`List`<Tab>`.java opens ListExamples.java in vim. jjjjjjjlllll`<Delete>`i2`<Escape>`:wq, in ListExamples.java opened in vim, moves the cursor down by 7 lines and then right by 5 whitespace characters, deletes the character 1 that's highlighted by the cursor, enters insert mode, inserts 2 where the cursor is, enters normal mode, saves the changes made, and quits vim.
 8. Run the tests, demonstrating that they now succeed
       - ![](Run-the-tests-demonstrating-that-they-now-succeed.png)
       - command I ran: `bash test.sh`
         - keys pressed: bash`<space>`test.sh`<Enter>`
-        - effect of above keypress: runs the tests in ListExamplesTest.java
+        - effect of above keypresses: runs the tests in ListExamplesTest.java
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
       - ![](Commit-and-push-the-resulting-change-to-your-Github-account.png)
       - commands I ran: `git add ListExamples.java`, `git commit -m "fixed a bug"`, and `git push`
         - keys pressed: git`<whitespace>`add`<whitespace>`List`<Tab>`.java`<Enter>`, git`<whitespace>`commit`<whitespace>`-m`<whitespace>`"fixed a bug"`<Enter>`, and git`<whitespace>`push`<Enter>`
-        - effect of each keypress: 
+        - effect of above keypresses: git`<whitespace>`add`<whitespace>`List`<Tab>` selects ListExamples.java, moves it to the staging area, and marks it for inclusion in the next commit. git`<whitespace>`commit`<whitespace>`-m`<whitespace>`"fixed a bug"`<Enter>` creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire repository at specific times. git`<whitespace>`push`<Enter>` updates the local commits made with `git add ListExamples.java` and `git commit -m "fixed a bug"` to [my remote branch](https://github.com/LaveryXu/lab7). (credit: [https://github.com/git-guides/git-add](https://github.com/git-guides/git-add))
