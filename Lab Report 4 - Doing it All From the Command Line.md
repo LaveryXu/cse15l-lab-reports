@@ -1,4 +1,4 @@
-
+Doing it All From the Command Line
 Log into ieng6
 Clone your fork of the repository from your Github account
 Run the tests, demonstrating that they fail
