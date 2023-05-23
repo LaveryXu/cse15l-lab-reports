@@ -17,8 +17,8 @@
     - effect of above keypresses: `cd lab7` changes the working directory to lab7, `ls` lists all unhidden files under the current working directory lab7, and `bash test.sh` runs the tests in ListExamplesTests.java.
 7. Edit the code file to fix the failing test
     ![](Edit-the-code-file-to-fix-the-failing-test.png)
-  - command I ran: `bash test.sh`
-    - keys pressed: vim`<whitespace>`List`<Tab>`.java, jjjjjjjlllll`<Delete>`i2`<Escape>`:wq
+  - command I ran: `vim ListExamples.java`
+    - keys pressed: vim`<whitespace>`List`<Tab>`.java and jjjjjjjlllll`<Delete>`i2`<Escape>`:wq
     - effect of above keypress: vim`<whitespace>`List`<Tab>`.java opens ListExamples.java in vim. jjjjjjjlllll`<Delete>`i2`<Escape>`:wq, in ListExamples.java opened in vim, moves the cursor down by 7 lines and then right by 5 whitespace characters, deletes the character 1 that's highlighted by the cursor, enters insert mode, inserts 2 where the cursor is, enters normal mode, saves the changes made, and quits vim.
 8. Run the tests, demonstrating that they now succeed
     ![](Run-the-tests-demonstrating-that-they-now-succeed.png)
