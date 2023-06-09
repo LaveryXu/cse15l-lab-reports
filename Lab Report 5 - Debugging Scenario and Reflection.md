@@ -12,7 +12,7 @@
 
 all the information needed about the setup:
 1. The file & directory structure needed
-  - ![Image]()
+  - ![Image](file-structure.png)
 3. The contents of each file before fixing the bug
   - ![Image]()
 5. The full command line (or lines) you ran to trigger the bug
