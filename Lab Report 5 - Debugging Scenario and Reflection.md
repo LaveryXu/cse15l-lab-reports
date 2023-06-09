@@ -15,6 +15,7 @@ all the information needed about the setup:
     - ![Image](file-structure.png)
 2. The contents of each file before fixing the bug
     - ![Image](java-file.png)
+    - ![Image](student-screenshot.png)
 3. The full command line (or lines) you ran to trigger the bug
     - `$ bash a-buggy-script.sh 1 1 s`
 4. A description of what to edit to fix the bug
