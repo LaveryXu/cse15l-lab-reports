@@ -3,8 +3,8 @@
 ## Part 1 – Debugging Scenario
 Design a debugging scenario in the spirit and style of the ones above. Write your report as a conversation on EdStem. It should have:
 - The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post; just write the content that would go in such a post)
-  - ![Image](student-screenshot.png)
-    The error message in the above screenshot indicates that bash doesn't recognize the command `bc`, but I saw that `bc` was used in `grade.sh` in Skill Demo 2 and bash recognizes `bc` on the ieng6 servers.
+  - The error message in the below screenshot indicates that bash doesn't recognize the command `bc`, but I saw that `bc` was used in `grade.sh` in Skill Demo 2 and bash recognizes `bc` on the ieng6 servers.
+    ![Image](student-screenshot.png)
 - A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
   - The error message indicates that the command `bc` is not recognized by bash. Some functionalities of bash need to be manually installed on your computer before using them. Try using the syntax that bash can recognize.
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
