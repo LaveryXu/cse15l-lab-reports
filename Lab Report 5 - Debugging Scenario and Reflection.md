@@ -12,13 +12,13 @@
 
 all the information needed about the setup:
 1. The file & directory structure needed
-  - ![Image](file-structure.png)
-3. The contents of each file before fixing the bug
-  - ![Image]()
-5. The full command line (or lines) you ran to trigger the bug
-  - `$ bash a-buggy-script.sh 1 1 s`
-7. A description of what to edit to fix the bug
-  - replaced the line with `bc` with `result=$(($1-$2))`
+    - ![Image](file-structure.png)
+2. The contents of each file before fixing the bug
+    - ![Image](java-file.png)
+3. The full command line (or lines) you ran to trigger the bug
+    - `$ bash a-buggy-script.sh 1 1 s`
+4. A description of what to edit to fix the bug
+    - replaced the line with `bc` with `result=$(($1-$2))`
 
 ## Part 2 – Reflection
 Prof. Joe's discussion about CS career planning was super helpful to me. It provides me insight of the CS industry and academia. I now can plan my career path with more confidence. =) 
