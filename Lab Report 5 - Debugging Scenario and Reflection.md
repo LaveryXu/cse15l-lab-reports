@@ -6,8 +6,9 @@ Design a debugging scenario in the spirit and style of the ones above. Write you
   - The error message in the below screenshot indicates that bash doesn't recognize the command `bc`. However, during my preparation for Skill Demo 2, I saw that bash recognizes `bc` on the ieng6 servers but bash doesn't recognize `bc` on my computer. I think the reason my computer's bash doesn't recognize the command `bc` is because my computer's bash is not the latest version?
     ![Image](student-screenshot.png)
 - A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
-  - You're right that your computer's bash doesn't recognize the command `bc`. Some suc functionalities suc the command `bc` need to be manually installed on your computer before using them. Try using the syntax that bash can recognize.
+  - You're right that your computer's bash doesn't recognize the command `bc`. Some bash functionalities such as the command `bc` need to be manually installed on a computer before usage for bash to be able to recognize them (the bash functionalities that need to be manually installed). You can either research online on how to install stuff for bash to become able to recognize the command `bc` or use other computational syntax.
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
+  - 
 At the end, all the information needed about the setup including:
 1. The file & directory structure needed
 2. The contents of each file before fixing the bug
